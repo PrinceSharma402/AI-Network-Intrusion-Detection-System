@@ -1,5 +1,5 @@
 ---
-title: AI NIDS Student Project
+title: AI-Based Network Intrusion Detection System
 emoji: 🛡️
 colorFrom: blue
 colorTo: green
@@ -9,20 +9,24 @@ app_file: app.py
 pinned: false
 ---
 
-# 🛡️ AI-Based Network Intrusion Detection System (Student Project)
+# 🛡️ AI-Based Network Intrusion Detection System
 
-This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (Grok)** to detect and explain network attacks (specifically DDoS).
+This project demonstrates the use of Machine Learning (Random Forest) along with Generative AI to detect and explain network intrusions such as DDoS attacks. The system analyzes network traffic patterns and classifies them as benign or malicious, providing explainable insights for detection results.
 
 ## 🚀 How to Use
-1. **Enter API Key:** Paste your Grok API key in the sidebar (optional, for AI explanations).
-2. **Train Model:** Click the "Train AI Model" button. The system loads the `Friday-WorkingHours...` dataset automatically.
-3. **Simulate:** Click "Simulate Random Packet" to pick a real network packet from the test set.
-4. **Analyze:** See if the model flags it as **BENIGN** or **DDoS**, and ask Grok to explain why.
 
-## 📂 Files
-- `app.py`: The main Python application code.
-- `requirements.txt`: List of libraries used.
-- `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: The dataset (CIC-IDS2017 subset).
+1. Enter API Key: Paste your Groq API key in the sidebar (optional, for AI-based explanations).
+2. Train Model: Click the "Train AI Model" button to train the intrusion detection model.
+3. Simulate: Use the simulation option to analyze network traffic samples.
+4. Analyze: View whether the traffic is classified as BENIGN or DDoS along with an AI-generated explanation.
 
-## 🎓 About
-Created for a university cybersecurity project to demonstrate the integration of traditional ML and LLMs in security operations.
+## 📁 Files
+
+- app.py : Main Python application file.
+- requirements.txt : List of required Python libraries.
+
+> Note: Large dataset files are not included in this repository due to GitHub file size limitations. The code supports standard intrusion detection datasets such as CIC-IDS2017.
+
+## ℹ️ About
+
+This project demonstrates the practical integration of machine learning and AI techniques for network intrusion detection and security analysis.
